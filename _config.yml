@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Siddhant Surve"
 title_separator          : "-"
 name                     : "Siddhant Surve"
-description              : "A reflection of my passion for Data Science bundled in a digital format"
+description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,12 +105,12 @@ analytics:
 author:
   name             : "Siddhant Surve"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Data Athelete."
   location         : "New York, NY"
   email            :
   links:
     - label: "Email"
-      icon: "sss780@nyu.edu"
+      icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -122,7 +122,7 @@ author:
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "https:github.com/SiddhantSurve"
+      icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -291,11 +291,10 @@ defaults:
       share: true
       related: true
 
- # _pages
- - scope:
-     path: ""
-     type: pages
-   values:
-     layout: single
-     author_profile: true
-     
+# _pages
+  -scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
